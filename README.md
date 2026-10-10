@@ -44,12 +44,10 @@
 
 ## 🚀 部署到 GitHub Pages
 
-推送到 `main` 分支後，GitHub Actions（`.github/workflows/deploy.yml`）會自動部署。
+已設定由 `main` 分支自動部署（Settings → Pages → Deploy from branch: `main` / root）。
+以後每次 `git push`，大約一分鐘內自動更新。
 
-**首次需要設定一次：**
-1. 去repo 嘅 **Settings → Pages**
-2. **Source** 揀 **GitHub Actions**
-3. 完成後網址係：`https://<帳號>.github.io/kid-routine-app/`
+**網址：** <https://poepoe33.github.io/kid-routine-app/>
 
 純靜態（HTML/CSS/JS，零依賴、零 build step），任何靜態托管都直接用得。
 
