@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512" role="img" aria-label="一步一步 App 圖示">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#26B5AA"/>
+      <stop offset="1" stop-color="#178179"/>
+    </linearGradient>
+    <clipPath id="round"><rect x="0" y="0" width="512" height="512" rx="112"/></clipPath>
+  </defs>
+
+  <g clip-path="url(#round)">
+    <rect width="512" height="512" fill="url(#bg)"/>
+
+    <!-- 三點腳印（一步一步） -->
+    <g fill="#ffffff" opacity="0.18">
+      <ellipse cx="108" cy="404" rx="34" ry="26"/>
+      <circle cx="82" cy="368" r="13"/><circle cx="112" cy="356" r="13"/><circle cx="142" cy="368" r="13"/>
+      <ellipse cx="404" cy="150" rx="26" ry="20"/>
+      <circle cx="386" cy="122" r="10"/><circle cx="408" cy="112" r="10"/><circle cx="430" cy="122" r="10"/>
+    </g>
+
+    <!-- Gin 頭 -->
+    <g transform="translate(256 262)">
+      <!-- 耳朵 -->
+      <path d="M-96-96 L-124-176 L-42-134 Z" fill="#D9A066"/>
+      <path d="M96-96 L124-176 L42-134 Z" fill="#D9A066"/>
+      <path d="M-88-96 L-108-146 L-52-118 Z" fill="#F2B8A8"/>
+      <path d="M88-96 L108-146 L52-118 Z" fill="#F2B8A8"/>
+      <!-- 頭 -->
+      <circle cx="0" cy="0" r="132" fill="#D9A066"/>
+      <!-- 頭頂毛 -->
+      <path d="M-60-104 q-32 -34 -8 -52 q20 -14 40 20z" fill="#C98A4B"/>
+      <path d="M4-118 q0 -42 24 -40 q20 4 6 48z" fill="#C98A4B"/>
+      <path d="M62-102 q30 -34 8 -52 q-20 -14 -40 20z" fill="#C98A4B"/>
+      <!-- 面颊絨毛 -->
+      <path d="M-124 16 q-34 14 -24 38 q7 19 28 4z" fill="#C98A4B"/>
+      <path d="M124 16 q34 14 24 38 q-7 19 -28 4z" fill="#C98A4B"/>
+      <!-- 眼 -->
+      <ellipse cx="-48" cy="-2" rx="37" ry="42" fill="#ffffff"/>
+      <ellipse cx="48" cy="-2" rx="37" ry="42" fill="#ffffff"/>
+      <circle cx="-46" cy="3" r="24" fill="#3FA34D"/>
+      <circle cx="46" cy="3" r="24" fill="#3FA34D"/>
+      <circle cx="-55" cy="-9" r="9" fill="#ffffff"/>
+      <circle cx="37" cy="-9" r="9" fill="#ffffff"/>
+      <!-- 鼻 -->
+      <path d="M-17 40 q17 -17 34 0 q-17 17 -34 0z" fill="#E8836F"/>
+      <!-- 嘴 -->
+      <path d="M0 52 q-15 20 -30 5" stroke="#B4794A" stroke-width="7" fill="none" stroke-linecap="round"/>
+      <path d="M0 52 q15 20 30 5" stroke="#B4794A" stroke-width="7" fill="none" stroke-linecap="round"/>
+      <!-- 鬍鬚 -->
+      <g stroke="#B4794A" stroke-width="6" stroke-linecap="round" opacity="0.75">
+        <path d="M-108 26 L-186 6"/><path d="M-108 48 L-186 52"/>
+        <path d="M108 26 L186 6"/><path d="M108 48 L186 52"/>
+      </g>
+      <!-- 頸巾 -->
+      <path d="M-108 92 q108 48 216 0 q12 48 -14 70 q-94 42 -188 0 q-26 -22 -14 -70z" fill="#F07A1F"/>
+    </g>
+
+    <!-- 星星 -->
+    <g transform="translate(392 400)">
+      <path d="M0 -58 l17 36 40 5 -29 28 8 39 -36 -20 -36 20 8 -39 -29 -28 40 -5z" fill="#F07A1F"/>
+    </g>
+  </g>
+</svg>

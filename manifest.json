@@ -1,0 +1,52 @@
+{
+  "name": "一步一步 · Step by Step",
+  "short_name": "一步一步",
+  "description": "把大任務拆成小步，讓小朋友自己走完。兒童自律訓練與親子共玩 Web App。",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "fullscreen",
+  "orientation": "any",
+  "background_color": "#FFF8EE",
+  "theme_color": "#1F9E94",
+  "lang": "zh-Hant-HK",
+  "dir": "ltr",
+  "categories": ["kids", "education", "family"],
+  "icons": [
+    {
+      "src": "assets/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "assets/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "assets/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "assets/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "今日任務",
+      "short_name": "今日",
+      "url": "./index.html#/kid/home"
+    },
+    {
+      "name": "家長控制台",
+      "short_name": "家長",
+      "url": "./index.html#/parent/home"
+    }
+  ]
+}
