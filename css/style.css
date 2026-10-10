@@ -523,7 +523,65 @@ body.parent-mode .view { background: #F7F8F9; }
   .hold-btn { width: 140px; height: 140px; }
 }
 
-/* 列印（週報告） */
+/* ---------------- 家長閱讀專區（執行功能） ---------------- */
+.ef-hero {
+  background: linear-gradient(150deg, #FFF6E9 0%, #F2FAF9 100%);
+  border-radius: 22px; padding: 22px 20px; box-shadow: var(--shadow-s); margin-bottom: 18px;
+}
+.ef-hero .ef-meta { font-size: 12px; font-weight: 800; letter-spacing: 1px; color: var(--orange); text-transform: uppercase; }
+.ef-hero .t { font-size: 25px; font-weight: 900; line-height: 1.35; margin-top: 10px; }
+.ef-hero .s { font-size: 15px; line-height: 1.85; color: var(--ink-soft); margin-top: 10px; }
+
+.ef-sec { background: #fff; border-radius: 18px; padding: 18px 20px 8px; box-shadow: var(--shadow-s); margin-bottom: 14px; }
+.ef-sec > h2 {
+  font-size: 19px; font-weight: 900; line-height: 1.45; margin: 0 0 14px;
+  display: flex; gap: 10px; align-items: flex-start;
+}
+.ef-sec > h2 > span:first-child { font-size: 24px; line-height: 1.2; flex: 0 0 auto; }
+
+.ef-p { font-size: 15.5px; line-height: 1.9; margin: 0 0 14px; }
+.ef-p:last-child { margin-bottom: 10px; }
+.ef-h3 { font-size: 16.5px; font-weight: 900; margin: 20px 0 8px; color: var(--mint-dark); }
+.ef-h3 .ef-en { display: block; font-size: 12.5px; font-weight: 700; color: var(--ink-soft); margin-top: 3px; letter-spacing: .2px; }
+
+.ef-ul { margin: 0 0 16px; padding-left: 22px; }
+.ef-ul li { font-size: 15px; line-height: 1.85; margin-bottom: 8px; }
+
+.ef-note {
+  background: #FFF6E9; border-radius: 14px; padding: 14px 16px;
+  font-size: 15px; line-height: 1.85; margin: 0 0 14px;
+}
+
+.ef-ex { background: #F7F8F9; border-radius: 14px; padding: 14px 16px; margin: 0 0 12px; }
+.ef-ex .k { font-size: 11.5px; font-weight: 800; letter-spacing: 1px; color: var(--ink-soft); text-transform: uppercase; margin-top: 12px; }
+.ef-ex .k:first-child { margin-top: 0; }
+.ef-ex .v { font-size: 15px; line-height: 1.8; margin-top: 5px; }
+.ef-ex .v.try { color: var(--mint-dark); font-weight: 700; }
+
+.ef-tl { list-style: none; margin: 0 0 16px; padding: 0; }
+.ef-tl li { position: relative; padding: 0 0 16px 24px; border-left: 2px solid var(--line); margin-left: 6px; }
+.ef-tl li::before {
+  content: ''; position: absolute; left: -7px; top: 5px; width: 12px; height: 12px;
+  border-radius: 50%; background: var(--mint);
+}
+.ef-tl li:last-child { border-left-color: transparent; padding-bottom: 4px; }
+.ef-tl .age { font-size: 13px; font-weight: 900; color: var(--mint-dark); }
+.ef-tl .x { font-size: 14.5px; line-height: 1.8; margin-top: 3px; }
+
+.ef-tip { display: flex; gap: 13px; margin: 0 0 14px; }
+.ef-tip .n {
+  flex: 0 0 30px; width: 30px; height: 30px; border-radius: 50%;
+  background: var(--mint); color: #fff; font-size: 14px; font-weight: 900;
+  display: flex; align-items: center; justify-content: center;
+}
+.ef-tip .h { font-size: 16px; font-weight: 800; margin-bottom: 3px; }
+.ef-tip .x { font-size: 14.5px; line-height: 1.8; color: var(--ink-soft); }
+
+.ef-end .q { font-size: 17px; font-weight: 800; line-height: 1.8; }
+.ef-links { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin-top: 4px; }
+.ef-links .btn { display: flex; align-items: center; justify-content: center; text-decoration: none; }
+
+/* 列印（週報告 + 家長閱讀） */
 @media print {
   .topbar, .tabbar, .voice-fab, .lock-hint, #toast-root { display: none !important; }
   body { background: #fff; }

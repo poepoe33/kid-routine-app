@@ -288,6 +288,7 @@
       { href: '/parent/tasks', icon: '📚', t: '任務庫', d: '開關任務、改步驟、加自訂任務' },
       { href: '/parent/schedule', icon: '🗓️', t: '時間表', d: '設定邊日幾時出現邊個任務' },
       { href: '/parent/report', icon: '📊', t: '週報告', d: '完成率走勢、卡點分析' },
+      { href: '/parent/understand', icon: '🧠', t: '理解孩子', d: '執行功能與前額葉發展 · 家長閱讀' },
       { href: '/parent/settings', icon: '⚙️', t: '設定', d: '語音、PIN、小朋友檔案、備份' }
     ].forEach(function (l) {
       var row = S.el('<a class="task-row" href="#' + l.href + '" style="text-decoration:none;color:inherit">' +

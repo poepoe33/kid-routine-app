@@ -295,6 +295,7 @@
     global.SBS_KID && global.SBS_KID.register(route);
     global.SBS_GAMES && global.SBS_GAMES.register(route);
     global.SBS_PARENT && global.SBS_PARENT.register(route);
+    global.SBS_EF && global.SBS_EF.register(route);
 
     route('/', function () {
       var st = global.SBS_STORE.load();
